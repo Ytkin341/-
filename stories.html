@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Истории</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<div id="mySidebar" class="sidebar">
+  <a href="index.html">Главная</a>
+  <a href="for-companies.html">Для компаний</a>
+  <a href="stories.html">Истории</a>
+  <a href="glory-grove.html">Роща славы</a>
+</div>
+
+<div class="content">
+  <h1>Истории посадок</h1>
+  <section>
+    <h2>Прошлые посадки</h2>
+    <p>Фото и видео прошлых посадок, отзывы участников, достижения.</p>
+  </section>
+</div>
+
+<script>
+function toggleMenu() {
+  document.getElementById("mySidebar").classList.toggle("open");
+  document.body.classList.toggle("menu-open");
+}
+</script>
+
+</body>
+</html>
